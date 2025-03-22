@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "type": "Apartment",
+      "rent": 150000,
+      "location": "Bonanjo, Douala",
+      "characteristics": ["2 Bedrooms", "2 Bathrooms", "Balcony", "Parking"],
+      "description": "Spacious apartment in the heart of Bonanjo, close to businesses and restaurants.",
+      "bedroom" : 2,
+      "bathroom": 2,
+      "livingroom": 1,
+      "garage": true,
+      "area": 200,
+      "image": "images/headerimg.jpg"
+    },
+    {
+      "id": 2,
+      "type": "Duplex",
+      "rent": 250000,
+      "location": "Bastos, Yaoundé",
+      "characteristics": ["3 Bedrooms", "3 Bathrooms", "Garage", "Garden"],
+      "description": "Luxurious duplex in the upscale Bastos neighborhood, perfect for families.",
+      "bedroom" : 1,
+      "bathroom": 1,
+      "livingroom": 1,
+      "garage": false,
+      "area": 200,
+      "image": "images/headerimg.jpg"
+    },
+    {
+      "id": 3,
+      "type": "Studio",
+      "rent": 80000,
+      "location": "Molyko, Buea",
+      "characteristics": ["1 Bedroom", "1 Bathroom", "Furnished"],
+      "description": "Cozy studio near the University of Buea, ideal for students or young professionals.",
+      "bedroom" : 2,
+      "bathroom": 2,
+      "livingroom": 1,
+      "garage": true,
+      "area": 200,
+      "image": "images/headerimg.jpg"
+    },
+    {
+      "id": 4,
+      "type": "Villa",
+      "rent": 400000,
+      "location": "Up Station, Bamenda",
+      "characteristics": ["4 Bedrooms", "3 Bathrooms", "Swimming Pool", "Garden"],
+      "description": "Elegant villa with a stunning view of the hills of Bamenda.",
+      "bedroom" : 3,
+      "bathroom": 3,
+      "livingroom": 2,
+      "garage": true,
+      "area": 150,
+      "image": "images/headerimg.jpg"
+    },
+    {
+      "id": 5,
+      "type": "Apartment",
+      "rent": 120000,
+      "location": "Akwa, Douala",
+      "characteristics": ["2 Bedrooms", "1 Bathroom", "Balcony"],
+      "description": "Affordable apartment in the bustling Akwa area, close to markets and transport.",
+      "bedroom" : 3,
+      "bathroom": 2,
+      "livingroom": 2,
+      "garage": false,
+      "area": 250,
+      "image": "images/headerimg.jpg"
+    }
+  ]
