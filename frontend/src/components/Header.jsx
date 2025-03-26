@@ -6,11 +6,13 @@ const Header = () => {
       <div className="flex flex-col px-8 mt-12 gap-4 items-center">
         <h2 className="text-center md:text-5xl text-4xl font-medium">
           Find Your <br />
-          <RoughAnnotation
-            text="Dream House"
-            type="highlight"
-            color="#15803d"
-          />
+          <span className="text-white">
+            <RoughAnnotation
+              text="Dream House"
+              type="highlight"
+              color="#15803d"
+            />
+          </span>
         </h2>
         <p className="max-w-xs lg:max-w-sm text-center md:text-sm lg:text-base text-dark">
           Rent out your home stress-free, quickly and reliably with our

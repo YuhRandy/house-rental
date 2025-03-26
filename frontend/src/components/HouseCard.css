@@ -9,6 +9,12 @@
     margin-bottom: 20px;
     overflow: hidden
   }
+  .payment-house-card {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+  }
   .img-container {
     overflow: hidden; /* Ensures the zoomed image doesn't overflow */
   }

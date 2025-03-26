@@ -21,11 +21,7 @@ const RoughAnnotation = ({ text, type = "underline", color = "green" }) => {
     }
   }, [text, type, color]);
 
-  return (
-    <span className="text-white" ref={elementRef}>
-      {text}
-    </span>
-  );
+  return <span ref={elementRef}>{text}</span>;
 };
 
 export default RoughAnnotation;

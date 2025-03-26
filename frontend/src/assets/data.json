@@ -11,7 +11,7 @@
       "livingroom": 1,
       "garage": true,
       "area": 200,
-      "image": "images/house4.JPG"
+      "image": "images/house1.JPG"
     },
     {
       "id": 2,
@@ -39,7 +39,7 @@
       "livingroom": 1,
       "garage": true,
       "area": 200,
-      "image": "images/house3.JPG"
+      "image": "images/headerimg.jpg"
     },
     {
       "id": 4,
@@ -53,7 +53,7 @@
       "livingroom": 2,
       "garage": true,
       "area": 150,
-      "image": "images/house1.JPG"
+      "image": "images/headerimg.jpg"
     },
     {
       "id": 5,
@@ -67,6 +67,6 @@
       "livingroom": 2,
       "garage": false,
       "area": 250,
-      "image": "images/house5.JPG"
+      "image": "images/headerimg.jpg"
     }
   ]

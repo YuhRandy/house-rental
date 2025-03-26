@@ -11,6 +11,7 @@ const Login = React.lazy(() => import("./pages/Login"));
 const SignUp = React.lazy(() => import("./pages/SignUp"));
 const AllHouses = React.lazy(() => import("./pages/AllHouses"));
 const HouseDetails = React.lazy(() => import("./pages/HouseDetails"));
+const Payment = React.lazy(() => import("./pages/Payment"));
 
 const NotFound = React.lazy(() => import("./pages/NotFound"));
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/all-houses" element={<AllHouses />} />
           <Route path="/house/:id" element={<HouseDetails />} />
+          <Route path="/house/:id/payment" element={<Payment />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
